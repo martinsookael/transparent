@@ -1,0 +1,35 @@
+<!--
+  {{meta_title}} - title for page meta
+  {{meta_description}} - description for page meta
+  {{{body}}} - includes index.hbs/page.hbs/post.hbs/tag.hbs/author.hbs
+  {{@blog.cover}} - print cover photo
+  {{@blog.logo}} - print logo
+  {{@blog.url}} - print URL
+  {{blog.url}}/rss/ - print URL for RSS
+  {{@blog.title}} - print blog title
+  {{@blog.description}} - print blog.description
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>{{meta_title}}</title>
+        <meta name="description" content="{{meta_description}}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+        <link rel="stylesheet" type="text/css" href="{{asset "bootstrap/dist/css/bootstrap.min.css"}}" />
+        <link rel="stylesheet" type="text/css" href="{{asset "screen.css"}}" />
+        {{ghost_head}}
+    </head>
+    <body class="{{body_class}}">
+        <div id="ghost">
+            Hello yes, this is Ghost!
+        </div>
+        {{{body}}}
+        {{ghost_foot}}
+        <script type="text/javascript" src="{{asset "bootstrap/dist/js/bootstrap.min.js"}}"></script>
+        <script type="text/javascript" src="{{asset "index.js"}}"></script>
+    </body>
+</html>

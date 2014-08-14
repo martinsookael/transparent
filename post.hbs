@@ -1,0 +1,26 @@
+{{!< default}}
+<!--
+  Single post page.
+  Included to default.hbs
+
+  Relevant tags:
+  {{post_class}} - "post page" if static / "post tag-post-name" for posts
+  Used like: <article class="{{post_class}}">
+
+  Post / page tags:
+  {{#post}} - Everything inside the #post tags pulls data from the post
+      {{title}} - Post title
+      {{content}} - Post content
+      {{tags}} - Post tags
+      {{tags prefix=" on "}} - tags with prefix
+      {{#author}} - Everything inside the #author tags pulls data from the author
+          {{url}} - Author URL
+          {{image}} - Author image
+          {{name}} - Author name
+          {{location}} - Author location
+          {{website}} - Author website
+          {{bio}} - Author bio
+      {{/author}}
+      <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+  {{/post}}
+-->

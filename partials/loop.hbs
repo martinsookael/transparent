@@ -1,0 +1,28 @@
+<!--
+  The main loop for posts.
+  Get's included in index.hbs
+
+  {{#foreach posts}} - loops through posts
+    {{post_class}} - "post page" if static / "post tag-post-name" for posts
+    {{url}} - url to this post
+    {{{title}}} - Post title
+    {{tags}} - Tags + links to tags. In order for this to work you've got to have tag.hbs from Casper
+    {{excerpt words="30"}} - create a excerpt with 30 words
+    {{author}} - Name to author and like to it. In order for this to work you've got to have author.hbs from Casper
+    {{author.name}} - Author name
+    {{author.image}} - Author image
+    {{author.url}} - URL to author profile. In order for this to work you've got to have author.hbs from Casper
+    {{author.location}} - Author location
+    {{author.website}} - Author website
+    {{author.bio}} - Author bio
+    <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+  {{/foreach}}
+  {{pagination}} - delivers pagination - next/last pages
+-->
+
+{{#foreach posts}}
+<!--
+  Put your stuff here like this:
+  {{{title}}}
+-->
+{{/foreach}}

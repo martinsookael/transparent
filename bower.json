@@ -1,0 +1,17 @@
+{
+  "name": "Transparent",
+  "version": "0.0.1",
+  "homepage": "https://github.com/martinsookael/transparent",
+  "authors": [
+    "martinsookael"
+  ],
+  "description": "Boilerplate for kicking off a kick-ass Ghost theme.",
+  "keywords": [
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.2.0"
+  }
+}
