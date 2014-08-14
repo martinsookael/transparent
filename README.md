@@ -32,27 +32,19 @@ Boostrap - http://getbootstrap.com/
 jQuery - is included to Ghost by default, but Bower installs this together with Bootstrap  
 
 
-Tutorial  
---------  
-default.hbs - Main template. This is where your <html><head><body> are.  
-  index.hbs - also known as front page. Get's included to default.hbs  
-    partials/loop.hbs - aka "loop all the posts"  
-  page.hbs - aka "static page"  
-  post.hbs - aga "single post"  
+Tutorial / Cheat sheet  
+--------------  
+All files have available tags included as a HTML comments:  
+default.hbs - Main template. This is where your html, head and body are
+index.hbs - also known as front page. Get's included to default.hbs
+page.hbs - aka "static page"  
+post.hbs - aga "single post"  
+partials/loop.hbs - aka "loop all the posts". It get's called inside index.hbs
 
 If you also need to show the author and tag pages, then get these from Casper:  
-tag.hbs - aka "list by tag"  
-author.hbs - aka "list by author"  
+* tag.hbs - aka "list by tag"  
+* author.hbs - aka "list by author"  
 
-
-Magic words / Cheat sheet  
---------------  
-There are chat sheets with available tags inside:  
-default.hbs  
-index.hbs  
-page.hbs  
-post.hbs  
-partials/loop.hbs  
 
 
 CSS / JS / Fonts  
