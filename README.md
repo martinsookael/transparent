@@ -8,8 +8,10 @@ Installation
 Install as any other Ghost theme.  
 1. Put it to content/themes/ folder  
 2. Go to www.youradress.com/ghost/settings/general/  
-3. Select Invisible from Theme section.  
-4. Save.  
+3. You might have to restart your Ghost.  
+4. Select Invisible from Theme section.  
+5. Save.  
+The theme should start working but should report missing bootstrap.
 
 
 Starting theme development  
