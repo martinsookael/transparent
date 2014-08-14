@@ -11,7 +11,8 @@ Install as any other Ghost theme.
 3. You might have to restart your Ghost.  
 4. Select Invisible from Theme section.  
 5. Save.  
-The theme should start working but should report missing bootstrap.
+The theme should start and say "Hello yes, this is Ghost" for a couple of seconds.
+It should report missing bootstrap.
 
 
 Starting theme development  
